@@ -13,7 +13,7 @@ class UserController {
 
         if(userAlreadyExists) {
             return response.status(400).json({
-                error: "User email already exits!",
+                error: "User email already exists!",
             })
         }
 
